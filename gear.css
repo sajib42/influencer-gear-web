@@ -1,0 +1,149 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    margin: 0 auto;
+}
+.nav-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.nav-container > img{
+    height:24px;
+    width: 24px;
+    margin-top:18px;
+    margin-right: 10px;
+    
+}
+.header{
+    /* color: aqua;
+    background-color: blue; */
+    height: 80px;
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 35px;
+    font-size: x-large;
+}
+.first-sec{
+    display: flex;
+   gap: 300px;
+   margin: 0 auto;
+   width: 1200px;
+   margin: 0 auto;
+   justify-content: space-between;
+
+}
+.header-1{
+  color: #3A3A3A;
+  font-weight: 1000;
+  font-size: 2rem;
+}
+.pera-1{
+font-size: 15px;
+}
+.btn-1{
+background-color: #222122;
+height: 44px;
+width: 196px;
+border-radius: 41px;
+color: white;
+}
+.img-1{
+
+}
+
+.first-tex{
+   margin-top: 90px;
+   width: 582px ;
+   height:270px ;
+
+}
+.baground-img{
+    position: absolute;
+    right:190px;
+    z-index:-1;
+    height: 440px;
+    width: 480px;
+}
+.camera{
+    z-index: -1;
+   
+    
+}
+.logo{
+    display: flex;
+    width:1200px;
+    flex-wrap: wrap;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid #0064D2;
+   
+    /* flex-direction: row-reverse;
+    gap: 20px;
+   
+    justify-content: space-between;
+    align-items: center; */
+  
+}
+.second-sec{
+  margin-top: 70px;
+  
+
+}
+.nine-img{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap:50px ;
+    border-radius: 5px;
+    width: 1200px;
+   margin: 0 auto;
+    background-color:#FFFFFF;
+    padding: 20px;
+   
+ 
+}
+.header-2{
+    text-align: center;
+}
+.im-1{
+    border: 2px solid #FFFFFF;
+    height: 470px;
+    width: 329px;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px 5px #aaaaaa;
+   
+    
+}
+.im-2{
+   height: 256px;
+   width: 329px; 
+   
+}
+/* see more */
+.see-more{
+    display: flex;
+    width: 1400px;
+    margin-right: 20px;
+    justify-content: flex-end;
+    
+}
+.shop{
+    color: #E02C6D;
+   font-size: 10px;
+ 
+}
+.img-icon{
+    height: 14px;
+    width: 16px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 15px;
+   
+}
